@@ -11,4 +11,19 @@ import ralph from "./ralph";
 import salor from "./salor-dude";
 import trump from "./trump";
 
+images = [
+    cat,
+    doughnut,
+    homerFlower,
+    homerWhiteShirt,
+    randomChick,
+    kimK,
+    lisaWDoctor,
+    margeDrawing,
+    ralph,
+    salor,
+    trump
+];
+
+export default images;
 
