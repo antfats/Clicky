@@ -1,29 +1,29 @@
-import React from "react";
-import cat from "./cat";
-import doughnut from "./doughnut-homer";
-import homerFlower from "./homer-flower";
-import homerWhiteShirt from "./homer-white-shirt";
-import randomChick from "./idk-this-chick";
-import kimK from "./kimK";
-import lisaWDoctor from "./lisa-doctor";
-import margeDrawing from "./marge-drawingmarge";
-import ralph from "./ralph";
-import salor from "./salor-dude";
-import trump from "./trump";
+// import React from "react";
+// import cat from "./cat.png";
+// import doughnut from "./doughnut-homer.jpg";
+// import homerFlower from "./homer-flower-shirt.jpg";
+// import homerWhiteShirt from "./homer-white-shirt.jpg";
+// import randomChick from "./idk-this-chick.jpg";
+// import kimK from "./kimK.jpg";
+// import lisaWDoctor from "./lisa-docter.jpg";
+// import margeDrawing from "./marge-drawingmarge.jpg";
+// import ralph from "./ralph.jpg";
+// import salor from "./salor-dude.jpg";
+// import trump from "./trump.jpg";
 
-images = [
-    cat,
-    doughnut,
-    homerFlower,
-    homerWhiteShirt,
-    randomChick,
-    kimK,
-    lisaWDoctor,
-    margeDrawing,
-    ralph,
-    salor,
-    trump
-];
+// images = [
+//     cat,
+//     doughnut,
+//     homerFlower,
+//     homerWhiteShirt,
+//     randomChick,
+//     kimK,
+//     lisaWDoctor,
+//     margeDrawing,
+//     ralph,
+//     salor,
+//     trump
+// ];
 
-export default images;
+// export default images;
 

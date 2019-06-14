@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-// import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/header";
-import image from "./simpsons.json";
+import image from "./components/images/simpsons.json";
 // import Jumbotron from "./components/jumbotron";
 import Imagecard from "./components/imageCard";
+import "./App.css";
 
 class App extends Component {
     state = {
@@ -14,7 +14,8 @@ class App extends Component {
 
     imageClick = event => {
         const currentImg = event.target.alt;
-        const ImgAlreadyClicked = this.state.clickedImg.indexOf(currentImg) > -1;
+        const ImgAlreadyClicked =
+            this.state.clickedImg.indexOf(currentImg) > -1;
 
         if (ImgAlreadyClicked) {
             this.setState({
@@ -48,7 +49,7 @@ class App extends Component {
                     }
                 });
         };
-    }
+    };
 
     render() {
         return (
@@ -59,7 +60,8 @@ class App extends Component {
                 {/* <Jumbotron /> */}
                 <div className="wrapper">
                     {this.state.image.map(image => (
-                        <Imagecard imageClick={this.imageClick}
+                        <Imagecard
+                            imageClick={this.imageClick}
                             id={image.id}
                             key={image.id}
                             image={image.image}

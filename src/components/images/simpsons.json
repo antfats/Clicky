@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "image": "cat.png"
+    },
+    {
+        "id": 2,
+        "image": "doughnut-homer.jpg"
+    },
+    {
+        "id": 3,
+        "image": "homer-flower-shirt.jpg"
+    },
+    {
+        "id": 4,
+        "image": "homer-white-shirt.jpg"
+    },
+    {
+        "id": 5,
+        "image": "idk-this-chick.jpg"
+    },
+    {
+        "id": 6,
+        "image": "kimK.jpg"
+    },
+    {
+        "id": 7,
+        "image": "lisa-docter.jpg"
+    },
+    {
+        "id": 8,
+        "image": "marge-drawingmarge.jpg"
+    },
+    {
+        "id": 9,
+        "image": "ralph.jpg"
+    },
+    {
+        "id": 10,
+        "image": "salor-dude.jpg"
+    },
+    {
+        "id": 11,
+        "image": "trump.jpg"
+    }
+]
