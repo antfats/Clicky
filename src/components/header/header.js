@@ -1,15 +1,16 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { Component } from "react";
 
-
-function header() {
-    return (<nav>
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link active" href="/">Clicky</a>
-            </li>
-        </ul>
-    </nav>
-    )
+class Header extends Component {
+    render() {
+        return (
+            <nav>
+                <ul>
+                    <li className="itemLeft" href="/">Clicky</li>
+                    <li className="itemRight">Score: {this.props.score} </li>
+                </ul>
+            </nav>
+        );
+    }
 }
-export default header;
+
+export default Header;
